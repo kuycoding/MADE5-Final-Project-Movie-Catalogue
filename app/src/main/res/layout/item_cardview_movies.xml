@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="8dp"
+        android:background="@color/bg_card">
+
+        <ImageView
+            android:id="@+id/img_item_poster"
+            tools:src="@color/colorAccent"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="4dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image"/>
+
+        <TextView
+            android:id="@+id/tv_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/img_item_poster"
+            android:fontFamily="@font/montserrat"
+            android:textSize="16sp"
+            android:textColor="@color/text_light_biru"
+            android:textStyle="bold"
+            tools:text="Spider-Man: Far from home" />
+
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            android:numStars="1"
+            android:stepSize="0.1"
+            android:progress="100"
+            android:isIndicator="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@id/img_item_poster"
+            android:layout_below="@id/tv_item_title"/>
+
+        <TextView
+            android:id="@+id/tv_item_userscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/rating"
+            android:layout_alignBottom="@+id/rating"
+            android:layout_marginStart="-10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/rating"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/number"
+            android:textColor="@color/text_light_biru"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_item_genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rating"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@id/img_item_poster"
+            android:textColor="@color/text_light_biru"
+            android:fontFamily="@font/montserrat"
+            tools:text="Action, Thriller" />
+
+        <TextView
+            android:id="@+id/tv_item_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_item_genre"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@id/img_item_poster"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/text_light_biru"
+            tools:text="10 oct" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="movies">Film</string>
+    <string name="tv_shows">Serial TV</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="poopularity">Populer</string>
+    <string name="vote_count">Penghitungan Suara</string>
+    <string name="language">Bahasa</string>
+    <string name="overview">Kilasan Singkat</string>
+    <string name="original_country">Negara Asal</string>
+    <string name="change_language">Ganti Bahasa</string>
+    <string name="toast_text">Kamu memilih</string>
+    <string name="image">image</string>
+    <string name="number">10</string>
+    <string name="favorite">Favorite</string>
+    <string name="genre">Kategori</string>
+    <string name="success_add_fav">Berhasil menambahkan favorite</string>
+    <string name="faild_add_fav">Gagal menambahkan favorite</string>
+    <string name="success_remove_fav">Berhasil hapus favorite</string>
+    <string name="faild_remove_fav">Gagal hapus favorite</string>
+    <string name="delete">Hapus</string>
+    <string name="add">Menambah</string>
+    <string name="appwidget_text">BANNER KATALOG FILM</string>
+    <string name="empty">empty</string>
+    <string name="search">Search</string>
+    <string name="alarm_setting">Alarm Setting</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="receive_notif_every_07_00_am">Receive notif every 07:00 AM</string>
+    <string name="release_reminder">Release Reminder</string>
+    <string name="daily_movie_release_info_every_08_00_am">Daily movie release info every 08:00 AM</string>
+</resources>

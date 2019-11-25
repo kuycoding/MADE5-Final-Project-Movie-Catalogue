@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="movies">Movies</string>
+    <string name="tv_shows">Tv Shows</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="poopularity">Poopularity</string>
+    <string name="vote_count">Vote Count</string>
+    <string name="language">Language</string>
+    <string name="overview">Overview</string>
+    <string name="original_country">Original Country</string>
+    <string name="change_language">Change Language</string>
+    <string name="toast_text">You choose</string>
+    <string name="image">image</string>
+    <string name="number">10</string>
+    <string name="favorite">Favorite</string>
+    <string name="genre">Genre</string>
+    <string name="success_add_fav">Success add favorite</string>
+    <string name="faild_add_fav">failed add favorite</string>
+    <string name="success_remove_fav">Success remove favorite</string>
+    <string name="faild_remove_fav">failed remove favorite</string>
+    <string name="delete">delete</string>
+    <string name="add">add</string>
+    <string name="appwidget_text">MOVIE CATALOGUE BANNER</string>
+    <string name="empty">empty</string>
+    <string name="search">Search</string>
+    <string name="alarm_setting">Alarm Setting</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="receive_notif_every_07_00_am">Receive notif every 07:00 AM</string>
+    <string name="release_reminder">Release Reminder</string>
+    <string name="daily_movie_release_info_every_08_00_am">Daily movie release info every 08:00 AM</string>
+</resources>
